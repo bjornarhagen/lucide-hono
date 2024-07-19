@@ -1,0 +1,9 @@
+services:
+  lucide-hono:
+    container_name: lucide-hono
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    volumes:
+      - ../:/app
+    tty: true

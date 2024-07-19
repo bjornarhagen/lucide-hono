@@ -1,0 +1,13 @@
+{
+  "name": "lucide-hono",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.5.0",
+    "lucide-static": "^0.411.0"
+  }
+}

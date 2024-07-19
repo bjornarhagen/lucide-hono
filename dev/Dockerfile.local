@@ -1,0 +1,4 @@
+FROM oven/bun:latest
+WORKDIR /app
+ENV NODE_ENV=development
+CMD ["bash"]
